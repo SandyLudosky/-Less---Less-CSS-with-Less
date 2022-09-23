@@ -1,0 +1,49 @@
+
+// function 
+.text-color(@color) when (luma(@color) =< 50%) {
+    color: @text-light;
+}
+.text-color(@color) when (luma(@color) > 50%) {
+    color: @text-dark;
+}
+
+// shared css
+.button-shared {
+    color: white;
+    border-radius: 4px;
+    padding: 10px 20px;
+    border: none;
+}
+
+.badge {
+    display: inline-block;
+    padding: 0.35em 0.65em;
+    font-size: .75em;
+    font-weight: 700;
+    line-height: 1;
+    text-align: center;
+    white-space: nowrap;
+    vertical-align: baseline;
+    border-radius: 0.25rem;
+}
+
+.alert {
+    position: relative;
+    padding: 1rem 1rem;
+    margin-bottom: 1rem;
+    border: 1px solid transparent;
+    border-radius: 0.25rem;
+  }
+
+
+//mixin 
+.badge-mixin(@bg, @clr: white) {
+    background-color: @bg;
+    color: @clr;
+}
+
+.alert-mixin(@bg, @clr: white) {
+    background-color: fadeout(@bg, 30%);
+    .text-color(@bg);
+}
+

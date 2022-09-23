@@ -2,7 +2,7 @@
 
 *Ce webinar est une introduction au langage préprocesseur Less pour apprendre à repousser les limites du CSS avec les fonctionnalités étendues de Less* 
 
-![Presentation webinar](preview.png "Presentation webinar")
+![Presentation webinar](/assets/preview.png "Presentation webinar")
 
 ## Au programme :
 - créer des variables réutilisables, 

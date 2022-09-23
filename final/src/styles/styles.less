@@ -1,0 +1,95 @@
+@import "variables.less";
+@import "mixins.less";
+
+#header {
+    a {
+        color: @green_color!important;
+    }
+}
+
+nav {
+    background-color: @green_color;
+    padding: @padding_ten;
+    a {
+       color: white!important; 
+       &:hover {
+        text-decoration: underline;
+       }
+
+       &.active {
+         font-weight: 800;
+         text-decoration: underline;
+       }
+    }
+}
+
+section {
+    a {
+        color: white;
+        &:hover {
+            text-decoration: none;
+        }
+    }
+}
+
+.button-midnight-blue {
+    &:extend(.button-shared);
+    background-color: @midnight-blue;
+}
+.button-orange {
+    &:extend(.button-shared);
+    background-color: @orange;
+}
+
+.button- {
+    &amethyste {
+        &:extend(.button-shared);
+        background-color: @amethyste;
+    }
+    &river {
+        &:extend(.button-shared);
+        background-color: @river;
+    }
+}
+
+.badge- {
+    &midnight-blue {
+        &:extend(.badge);
+        .badge-mixin(@midnight-blue)
+    }
+    &orange {
+        &:extend(.badge);
+        .badge-mixin(@orange)
+    }
+    &amethyste {
+        &:extend(.badge);
+        .badge-mixin(@amethyste)
+    }
+    &river {
+        &:extend(.badge);
+        .badge-mixin(@river)
+    }
+}
+
+.alert- {
+    &midnight-blue {
+        &:extend(.alert);
+        .alert-mixin(@midnight-blue)
+    }
+    &orange {
+        &:extend(.alert);
+        .alert-mixin(@orange)
+    }
+    &amethyste {
+        &:extend(.alert);
+        .alert-mixin(@amethyste)
+    }
+    &river {
+        &:extend(.alert);
+        .alert-mixin(@river)
+    }
+    &cloud {
+        &:extend(.alert);
+        .alert-mixin(@cloud)
+    }
+}

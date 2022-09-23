@@ -1,0 +1,108 @@
+.button-shared,
+.button-midnight-blue,
+.button-orange,
+.button-amethyste,
+.button-river {
+  color: white;
+  border-radius: 4px;
+  padding: 10px 20px;
+  border: none;
+}
+.badge,
+.badge-midnight-blue,
+.badge-orange,
+.badge-amethyste,
+.badge-river {
+  display: inline-block;
+  padding: 0.35em 0.65em;
+  font-size: 0.75em;
+  font-weight: 700;
+  line-height: 1;
+  text-align: center;
+  white-space: nowrap;
+  vertical-align: baseline;
+  border-radius: 0.25rem;
+}
+.alert,
+.alert-midnight-blue,
+.alert-orange,
+.alert-amethyste,
+.alert-river,
+.alert-cloud {
+  position: relative;
+  padding: 1rem 1rem;
+  margin-bottom: 1rem;
+  border: 1px solid transparent;
+  border-radius: 0.25rem;
+}
+#header a {
+  color: teal !important;
+}
+nav {
+  background-color: teal;
+  padding: 10px;
+}
+nav a {
+  color: white!important;
+}
+nav a:hover {
+  text-decoration: underline;
+}
+nav a.active {
+  font-weight: 800;
+  text-decoration: underline;
+}
+section a {
+  color: white;
+}
+section a:hover {
+  text-decoration: none;
+}
+.button-midnight-blue {
+  background-color: #2c3e50;
+}
+.button-orange {
+  background-color: #f39c12;
+}
+.button-amethyste {
+  background-color: #9b59b6;
+}
+.button-river {
+  background-color: #3498db;
+}
+.badge-midnight-blue {
+  background-color: #2c3e50;
+  color: white;
+}
+.badge-orange {
+  background-color: #f39c12;
+  color: white;
+}
+.badge-amethyste {
+  background-color: #9b59b6;
+  color: white;
+}
+.badge-river {
+  background-color: #3498db;
+  color: white;
+}
+.alert-midnight-blue {
+  background-color: rgba(44, 62, 80, 0.7);
+  color: #ecf0f1;
+}
+.alert-orange {
+  background-color: rgba(243, 156, 18, 0.7);
+  color: #ecf0f1;
+}
+.alert-amethyste {
+  background-color: rgba(155, 89, 182, 0.7);
+  color: #ecf0f1;
+}
+.alert-river {
+  background-color: rgba(52, 152, 219, 0.7);
+  color: #ecf0f1;
+}
+.alert-cloud {
+  background-color: rgba(236, 240, 241, 0.7);
+  color: #2c3e50;
+}
