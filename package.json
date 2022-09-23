@@ -15,7 +15,9 @@
     "start": "react-scripts start",
     "build": "react-scripts build",
     "test": "react-scripts test",
-    "eject": "react-scripts eject"
+    "eject": "react-scripts eject", 
+    "compile": "npx lessc src/styles/style.less src/styles/style.css", 
+    "watch": "npx less-watch-compiler src/styles src/styles style.less"
   },
   "eslintConfig": {
     "extends": [
